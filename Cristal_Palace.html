@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce2095124f1ae493c6325985dd277cea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce2095124f1ae493c6325985dd277cea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce2095124f1ae493c6325985dd277cea = L.map(
+                "map_ce2095124f1ae493c6325985dd277cea",
+                {
+                    center: [-34.55769517672496, -58.45896236789304],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c8c8e5c0474ca20fea338b84f80d3c71 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c8c8e5c0474ca20fea338b84f80d3c71.addTo(map_ce2095124f1ae493c6325985dd277cea);
+        
+    
+            var marker_1c281d34cfc3653041befc066c93f72d = L.marker(
+                [-34.55769408261165, -58.458646371978524],
+                {}
+            ).addTo(map_ce2095124f1ae493c6325985dd277cea);
+        
+    
+            var icon_ca58d87a87e24b8a6ef3c4f856988b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "Hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c281d34cfc3653041befc066c93f72d.setIcon(icon_ca58d87a87e24b8a6ef3c4f856988b9f);
+        
+    
+        var popup_0acb908ea6e07c5a2ebb709b015185a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5914155a1e5f9218d88b2e21dcc912e1 = $(`<div id="html_5914155a1e5f9218d88b2e21dcc912e1" style="width: 100.0%; height: 100.0%;">Cristal Palace Hotel</div>`)[0];
+                popup_0acb908ea6e07c5a2ebb709b015185a1.setContent(html_5914155a1e5f9218d88b2e21dcc912e1);
+            
+        
+
+        marker_1c281d34cfc3653041befc066c93f72d.bindPopup(popup_0acb908ea6e07c5a2ebb709b015185a1)
+        ;
+
+        
+    
+    
+            var marker_da95b127224f41a88a722e7ed483788c = L.marker(
+                [-34.554957865456004, -58.45068694683588],
+                {}
+            ).addTo(map_ce2095124f1ae493c6325985dd277cea);
+        
+    
+            var icon_b1c934c480b02437a232a2748073bf06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da95b127224f41a88a722e7ed483788c.setIcon(icon_b1c934c480b02437a232a2748073bf06);
+        
+    
+        var popup_549ac2c1b818abb888966621939b3655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3a771a23e2460a3a128e3f39d909148 = $(`<div id="html_f3a771a23e2460a3a128e3f39d909148" style="width: 100.0%; height: 100.0%;">FLENI</div>`)[0];
+                popup_549ac2c1b818abb888966621939b3655.setContent(html_f3a771a23e2460a3a128e3f39d909148);
+            
+        
+
+        marker_da95b127224f41a88a722e7ed483788c.bindPopup(popup_549ac2c1b818abb888966621939b3655)
+        ;
+
+        
+    
+</script>
+</html>
